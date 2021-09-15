@@ -1,0 +1,14 @@
+#titulo{
+    margin-top: 10px;
+    text-align: center;
+}
+
+#capturaTarea{
+    border-color: var(--ion-color-primary);
+    border-style: solid;
+}
+
+#capturaDetalle{
+    border-color: var(--ion-color-primary);
+    border-style: solid;
+}

@@ -1,0 +1,6 @@
+{
+	"appId": "io.ionic.starter",
+	"appName": "ragasa-project",
+	"webDir": "www",
+	"bundledWebRuntime": false
+}

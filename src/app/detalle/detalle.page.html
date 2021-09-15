@@ -1,0 +1,47 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons>
+      <ion-button (click)="goToHome()">
+        <ion-icon name="arrow-back-circle-outline"></ion-icon>
+      </ion-button>
+      <ion-title>Detalle de La Tarea</ion-title>
+    </ion-buttons>
+
+  </ion-toolbar>
+</ion-header>
+
+
+<ion-content id="titulo">
+  <label>
+    <h4>Tarea:</h4>
+  </label>
+  <h3>
+    <div id="capturaTarea">
+      <ion-input [(ngModel)]="task" color="primary"></ion-input>
+    </div>
+  </h3>
+
+  <label>
+    <h3>Detalle:</h3>
+  </label>
+  <div id="capturaDetalle">
+    <ion-textarea rows="8" [(ngModel)]="descripcion">
+    </ion-textarea>
+  </div>
+</ion-content>
+
+
+
+<ion-footer class="ion-text-center">
+  <ion-buttons>
+    <ion-grid>
+      <ion-row>
+        <ion-col size="12">
+          <ion-button (click)="update()">
+            <h2>Guardar</h2>
+          </ion-button>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+  </ion-buttons>
+</ion-footer>

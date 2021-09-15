@@ -1,0 +1,7 @@
+{
+  "name": "ragasa-project",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
